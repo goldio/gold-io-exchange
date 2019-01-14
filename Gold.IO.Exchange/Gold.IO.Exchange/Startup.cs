@@ -41,7 +41,7 @@ namespace Gold.IO.Exchange
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
